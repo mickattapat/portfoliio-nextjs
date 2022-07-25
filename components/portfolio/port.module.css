@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+.port_contianer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.port_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    max-height: 350px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.port_list:hover {
+    transform: translateY(-10px);
+}
+
+.img_port {
+    border-radius: .5rem;
+    width: 100%;
+}

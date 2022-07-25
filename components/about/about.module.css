@@ -1,0 +1,43 @@
+.detail_skills li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0.5rem 1rem;
+  }
+
+  .detail_hoobies {
+    list-style-type: none;
+    padding: 0.5rem 1rem;
+    line-height: 2rem;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+.download_cv {
+  padding: 0 3rem 0 3rem;
+  text-align: end;
+  max-width: 800px;
+  width: 100%;
+}
+
+.download_cv a {
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    background-image: linear-gradient( 109.6deg, #4e5050 11.2%, #4c4f51 91.1% );
+    padding: .5rem;
+    margin: 0 .5rem .5rem .5rem;
+    color: #fff;
+    transition: .3s;
+    box-shadow: 0px 0px 20px 0px #bbb;
+}
+.download_cv a:hover {
+    background: linear-gradient(135deg, #6bfaae, #8decde);;
+    color: #000;
+}
+
+.bottom_footer {
+  margin-bottom: 2rem;
+}
